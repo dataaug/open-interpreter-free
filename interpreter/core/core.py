@@ -91,7 +91,8 @@ class Interpreter:
     def _streaming_chat(self, message=None, display=True):
         # If we have a display,
         # we can validate our LLM settings w/ the user first
-        if display:
+        gpt4free = True
+        if display and not gpt4free:
             validate_llm_settings(self)
 
         # Setup the LLM

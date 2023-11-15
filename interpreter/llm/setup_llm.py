@@ -5,12 +5,21 @@ import litellm
 from .convert_to_coding_llm import convert_to_coding_llm
 from .setup_openai_coding_llm import setup_openai_coding_llm
 from .setup_text_llm import setup_text_llm
+from .setup_gpt4free_llm import setup_gpt4free_llm 
+from .convert_to_coding_gpt4free_llm import convert_to_coding_gpt4free_llm
+
 
 def setup_llm(interpreter):
     """
     Takes an Interpreter (which includes a ton of LLM settings),
     returns a Coding LLM (a generator that streams deltas with `message` and `code`).
     """
+    # gpt4fre
+    gpt4free = True
+    if gpt4free:
+        text_llm = setup_gpt4free_llm(interpreter)
+        coding_llm = convert_to_coding_gpt4free_llm(text_llm, debug_mode=interpreter.debug_mode)
+        return coding_llm
 
     # Detect whether or not it's a function calling LLM
     if interpreter.function_calling_llm == None:
