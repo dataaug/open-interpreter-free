@@ -1,4 +1,4 @@
-<h1 align="center">● Open Interpreter</h1>
+<h1 align="center">● Open Interpreter Free</h1>
 
 <p align="center">
     <a href="https://discord.gg/6p3fD6rBVm">
