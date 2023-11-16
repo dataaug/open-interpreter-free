@@ -1,4 +1,4 @@
-<h1 align="center">● Open Interpreter（开放解释器）</h1>
+<h1 align="center">● Open Interpreter Free（免费开放代码解释器）</h1>
 
 <p align="center">
     <a href="https://discord.gg/6p3fD6rBVm"><img alt="Discord" src="https://img.shields.io/discord/1146610656779440188?logo=discord&style=flat&logoColor=white"></a>
