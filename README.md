@@ -14,7 +14,7 @@
     <br><a href="https://openinterpreter.com">Get early access to the desktop app</a>‎ ‎ |‎ ‎ <b><a href="https://docs.openinterpreter.com/">Read our new docs</a></b><br>
 </p>
 
-<br>
+# NOTE: Fork from [[open-interpreter](https://github.com/KillianLucas/open-interpreter)](https://github.com/KillianLucas/open-interpreter/tree/2eb14b72fbd9133aa72e7313244a6b37f72323a8) to support GPT4free
 
 ![poster](https://github.com/KillianLucas/open-interpreter/assets/63927363/08f0d493-956b-4d49-982e-67d4b20c4b56)
 
@@ -25,7 +25,7 @@
 <br>
 
 ```shell
-pip install open-interpreter
+pip install git+https://github.com/dataaug/open-interpreter-free.git
 ```
 
 ```shell
@@ -62,7 +62,7 @@ https://github.com/KillianLucas/open-interpreter/assets/63927363/37152071-680d-4
 ## Quick Start
 
 ```shell
-pip install open-interpreter
+pip install git+https://github.com/dataaug/open-interpreter-free.git
 ```
 
 ### Terminal
@@ -195,7 +195,7 @@ In Python, set the model on the object:
 interpreter.model = "gpt-3.5-turbo"
 ```
 
-[Find the appropriate "model" string for your language model here.](https://docs.litellm.ai/docs/providers/)
+[Find the appropriate &#34;model&#34; string for your language model here.](https://docs.litellm.ai/docs/providers/)
 
 ### Running Open Interpreter locally
 
@@ -256,7 +256,7 @@ In the interactive mode, you can use the below commands to enhance your experien
 - `%undo`: Removes the previous user message and the AI's response from the message history.
 - `%save_message [path]`: Saves messages to a specified JSON path. If no path is provided, it defaults to `messages.json`.
 - `%load_message [path]`: Loads messages from a specified JSON path. If no path is provided, it defaults to `messages.json`.
-- `%tokens [prompt]`: (_Experimental_) Calculate the tokens that will be sent with the next prompt as context and estimate their cost. Optionally calculate the tokens and estimated cost of a `prompt` if one is provided. Relies on [LiteLLM's `cost_per_token()` method](https://docs.litellm.ai/docs/completion/token_usage#2-cost_per_token) for estimated costs.
+- `%tokens [prompt]`: (_Experimental_) Calculate the tokens that will be sent with the next prompt as context and estimate their cost. Optionally calculate the tokens and estimated cost of a `prompt` if one is provided. Relies on [LiteLLM&#39;s `cost_per_token()` method](https://docs.litellm.ai/docs/completion/token_usage#2-cost_per_token) for estimated costs.
 - `%help`: Show the help message.
 
 ### Configuration
