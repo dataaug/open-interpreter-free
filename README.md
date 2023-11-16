@@ -14,7 +14,7 @@
     <br><a href="https://openinterpreter.com">Get early access to the desktop app</a>‎ ‎ |‎ ‎ <b><a href="https://docs.openinterpreter.com/">Read our new docs</a></b><br>
 </p>
 
-# NOTE: Fork from [![open-interpreter](https://github.com/KillianLucas/open-interpreter)](https://github.com/KillianLucas/open-interpreter/tree/2eb14b72fbd9133aa72e7313244a6b37f72323a8) to support GPT4free
+# NOTE: Fork from [open-interpreter](https://github.com/KillianLucas/open-interpreter)(https://github.com/KillianLucas/open-interpreter/tree/2eb14b72fbd9133aa72e7313244a6b37f72323a8) to support GPT4free
 
 ![poster](https://github.com/KillianLucas/open-interpreter/assets/63927363/08f0d493-956b-4d49-982e-67d4b20c4b56)
 
