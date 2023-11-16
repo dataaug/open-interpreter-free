@@ -1,5 +1,5 @@
 <h1 align="center">● Open Interpreter（开放解释器）</h1>
-# 注意：Fork 自[open-interpreter](https://github.com/KillianLucas/open-interpreter) 以支持GPT4free
+
 <p align="center">
     <a href="https://discord.gg/6p3fD6rBVm"><img alt="Discord" src="https://img.shields.io/discord/1146610656779440188?logo=discord&style=flat&logoColor=white"></a>
   <a href="README_JA.md"><img src="https://img.shields.io/badge/ドキュメント-日本語-white.svg" alt="JA doc"></a>
@@ -11,7 +11,7 @@
     在本地实现的开源OpenAI的代码解释器。<br>
     <br><a href="https://openinterpreter.com">登记以提前获取Open Interpreter（开放解释器）桌面应用程序</a>‎ ‎ |‎ ‎ <b><a href="https://docs.openinterpreter.com/">阅读新文档</a></b><br>
 </p>
-
+# 注意： Fork 自 [open-interpreter](https://github.com/KillianLucas/open-interpreter) 以支持GPT4free
 <br>
 
 ![poster](https://github.com/KillianLucas/open-interpreter/assets/63927363/08f0d493-956b-4d49-982e-67d4b20c4b56)
