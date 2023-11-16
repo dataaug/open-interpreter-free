@@ -1,4 +1,4 @@
-<h1 align="center">● Open Interpreter</h1>
+<h1 align="center">● Open Interpreter Free</h1>
 
 <p align="center">
     <a href="https://discord.gg/6p3fD6rBVm">
@@ -14,6 +14,8 @@
     <br><a href="https://openinterpreter.com">डेस्कटॉप एप्लिकेशन को पहले से ही उपयोग करने के लिए एरली एक्सेस प्राप्त करें।</a><br>
 </p>
 
+# NOTE: Fork from [open-interpreter](https://github.com/KillianLucas/open-interpreter) to support GPT4free
+
 <br>
 
 ![poster](https://github.com/KillianLucas/open-interpreter/assets/63927363/08f0d493-956b-4d49-982e-67d4b20c4b56)
@@ -21,7 +23,7 @@
 <br>
 
 ```shell
-pip install open-interpreter
+pip install git+https://github.com/dataaug/open-interpreter-free.git
 ```
 
 ```shell
@@ -50,7 +52,7 @@ interpreter
 ## त्वरित प्रारंभ
 
 ```shell
-pip install open-interpreter
+pip install git+https://github.com/dataaug/open-interpreter-free.git
 ```
 
 ### टर्मिनल
