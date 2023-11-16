@@ -1,5 +1,5 @@
 <h1 align="center">● Open Interpreter（开放解释器）</h1>
-
+# 注意：Fork 自[open-interpreter](https://github.com/KillianLucas/open-interpreter) 以支持GPT4free
 <p align="center">
     <a href="https://discord.gg/6p3fD6rBVm"><img alt="Discord" src="https://img.shields.io/discord/1146610656779440188?logo=discord&style=flat&logoColor=white"></a>
   <a href="README_JA.md"><img src="https://img.shields.io/badge/ドキュメント-日本語-white.svg" alt="JA doc"></a>
@@ -19,7 +19,7 @@
 <br>
 
 ```shell
-pip install open-interpreter
+pip install git+https://github.com/dataaug/open-interpreter-free.git
 ```
 
 ```shell
@@ -52,7 +52,7 @@ https://github.com/KillianLucas/open-interpreter/assets/63927363/37152071-680d-4
 ## 快速开始
 
 ```shell
-pip install open-interpreter
+pip install git+https://github.com/dataaug/open-interpreter-free.git
 ```
 
 ### 终端
