@@ -26,6 +26,7 @@
 
 ```shell
 pip install git+https://github.com/dataaug/open-interpreter-free.git
+pip install -U g4f
 ```
 
 ```shell
@@ -63,6 +64,7 @@ https://github.com/KillianLucas/open-interpreter/assets/63927363/37152071-680d-4
 
 ```shell
 pip install git+https://github.com/dataaug/open-interpreter-free.git
+pip install -U g4f
 ```
 
 ### Terminal
